@@ -1,5 +1,5 @@
 # FormationGit
 
-![git](https://github.com/HIMBER/FormationGit/Private/Images/git.jpg)
+![git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg)
 
 Ressources pour configurer son environnement

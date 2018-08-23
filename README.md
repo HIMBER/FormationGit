@@ -1,6 +1,6 @@
 # Formation à Git
 
-![logo git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg)
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg)
 
 Ce dépôt contient quelques ressources pour configurer son environnement de travail
 
@@ -91,7 +91,24 @@ Sous Git Bash :
 $ git mergetool
 ```
 
-## Créer quelques alias utiles
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Compte.png) Configurer son compte
+
+Sous Git Bash :
+
+```sh
+$ git config --global user.name "Prénom NOM"
+$ git config --global user.email "prénom.nom@masociété.com"
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Https.png) Désactiver les erreurs de certificat HTTPs
+
+Sous Git Bash :
+
+```sh
+$ git config --global http.sslVerify false
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Alias.png) Créer quelques alias utiles
 
 Sous Git Bash :
 
@@ -99,6 +116,16 @@ Sous Git Bash :
 $ git config --global alias.lg log --graph --oneline --decorate
 $ git config --global alias.cm commit -m
 $ git config --global alias.st status
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Alias.png) Utiliser ces alias
+
+Sous Git Bash :
+
+```sh
+$ git lg
+$ git cm "mon message de description de commit"
+$ git st
 ```
 
 License

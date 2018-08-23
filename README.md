@@ -128,6 +128,30 @@ $ git cm "mon message de description de commit"
 $ git st
 ```
 
+## [](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Faire un rebase pour conserver un historique propre
+
+Par exemple, pour fusionner la `branche de développement` avec une `branche de fonctionnalité`
+
+### Sous Windows :
+
+Sur son poste local, créer un sous-dossier pour héberger les sources
+
+### Sous Git Bash :
+
+```sh
+$ git clone <url_projet> 
+$ git checkout -b <source_branch> origin/<source_branch> 
+$ git rebase -i origin/<target_branch>
+# pick / squash / delete commits + résoudre conflits
+$ git rebase --continue (ou --abort)
+$ git checkout -b <target_branch> origin/<target_branch> 
+$ git merge <source branch> # c’est un fast forward 
+$ git push
+```
+
+La **branche source** est celle dont les commits vont être rejoués (ex : `branche de fonctionnalité`)
+La **branche cible** est celle dont le dernier commit va servir de nouveau parent à la branche source (ex : `branche de développement`)
+
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----
 

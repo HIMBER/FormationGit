@@ -149,8 +149,8 @@ $ git merge <source branch> # c’est un fast forward
 $ git push
 ```
 
-La **branche source** est celle dont les commits vont être rejoués (ex : `branche de fonctionnalité`)
-La **branche cible** est celle dont le dernier commit va servir de nouveau parent à la branche source (ex : `branche de développement`)
+- La **branche source** est celle dont les commits vont être rejoués (ex : `branche de fonctionnalité`)
+- La **branche cible** est celle dont le dernier commit va servir de nouveau parent à la branche source (ex : `branche de développement`)
 
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----

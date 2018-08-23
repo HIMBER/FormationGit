@@ -128,7 +128,7 @@ $ git cm "mon message de description de commit"
 $ git st
 ```
 
-## [](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Faire un rebase pour conserver un historique propre
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Faire un rebase pour conserver un historique propre
 
 Par exemple, pour fusionner la `branche de développement` avec une `branche de fonctionnalité`
 

@@ -38,7 +38,7 @@ Copier cette clé vers le presse papier
 ```sh
 #!/bin/bash
 eval `ssh-agent -s`
-ssh-add
+ssh-add ~/.ssh/id_rsa.pub
 ```
 
 ## Configurer WinMerge en tant qu'outil de fusion par défaut

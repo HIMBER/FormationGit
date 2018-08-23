@@ -1,12 +1,21 @@
 # Formation à Git
 
-![logo git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg =300x)
+![logo git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg)
 
 Ce dépôt contient quelques ressources pour configurer son environnement de travail
 
+## Installer Git Bash
+- Télécharger l'installeur depuis https://gitforwindows.org/
+- Exécuter cet installeur sur son poste
+ 
+## Ouvrir Git Bash dans un dossier
+Un menu contextuel sera à présent disponible dans l'explorateur Windows :
+- Git Bash Here
+- Git GUI Here
+
 ## Création d'une nouvelle clé SSH compatible avec GitLab
 
-### Lancer GitBash et saisir cette commande
+### Lancer Git Bash et saisir cette commande
 
 ```sh
 $ ssh-keygen -t rsa -C "monadressemail@masociété.com" -b 4096
@@ -38,7 +47,7 @@ Copier cette clé vers le presse papier
 ```sh
 #!/bin/bash
 eval `ssh-agent -s`
-ssh-add
+ssh-add ~/.ssh/id_rsa.pub
 ```
 
 ## Configurer WinMerge en tant qu'outil de fusion par défaut
@@ -81,6 +90,17 @@ Sous Git Bash :
 ```sh
 $ git mergetool
 ```
+
+## Créer quelques alias utiles
+
+Sous Git Bash :
+
+```sh
+$ git config --global alias.lg log --graph --oneline --decorate
+$ git config --global alias.cm commit -m
+$ git config --global alias.st status
+```
+
 License
 ----
 

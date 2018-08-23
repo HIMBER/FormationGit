@@ -4,7 +4,7 @@
 
 Ce dépôt contient quelques ressources pour configurer son environnement de travail
 
-## Installer Git Bash
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Installer Git Bash
 - Télécharger l'installeur depuis https://gitforwindows.org/
 - Exécuter cet installeur sur son poste
  

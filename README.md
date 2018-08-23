@@ -4,7 +4,7 @@
 
 Ce dépôt contient quelques ressources pour configurer son environnement de travail
 
-## Installer Git Bash
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Installer Git Bash
 - Télécharger l'installeur depuis https://gitforwindows.org/
 - Exécuter cet installeur sur son poste
  
@@ -13,7 +13,7 @@ Un menu contextuel sera à présent disponible dans l'explorateur Windows :
 - Git Bash Here
 - Git GUI Here
 
-## Création d'une nouvelle clé SSH compatible avec GitLab
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/SSH.png) Création d'une nouvelle clé SSH compatible avec GitLab
 
 ### Lancer Git Bash et saisir cette commande
 
@@ -31,7 +31,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 Copier cette clé vers le presse papier
 
-### Associer cette clé publique avec le dépôt GitLab
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Associer cette clé publique avec le dépôt GitLab
 
 - Aller sur GitLab
 - Menu Settings
@@ -40,7 +40,7 @@ Copier cette clé vers le presse papier
 - Donner un titre clair à cette clé
 - Cliquer sur Add Key pour valider
 
-## Utilisation de cette clé dans les nouvelles sessions Git Bash
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Utilisation de cette clé dans les nouvelles sessions Git Bash
 
 ### Editer (ou créer) le fichier %userprofile%/.bashrc
 
@@ -50,7 +50,7 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa.pub
 ```
 
-## Configurer WinMerge en tant qu'outil de fusion par défaut
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/WinMerge.png) Configurer WinMerge en tant qu'outil de fusion par défaut
 
 ### Télécharger WinMerge depuis http://winmerge.org/downloads/?lang=fr
 

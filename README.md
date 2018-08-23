@@ -1,6 +1,6 @@
 # Formation à Git
 
-![logo git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg =300x)
+![logo git](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/git.jpg)
 
 Ce dépôt contient quelques ressources pour configurer son environnement de travail
 

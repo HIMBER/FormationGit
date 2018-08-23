@@ -128,7 +128,7 @@ $ git cm "mon message de description de commit"
 $ git st
 ```
 
-License
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----
 
 GNU General Public License v3.0

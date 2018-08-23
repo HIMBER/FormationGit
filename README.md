@@ -8,7 +8,7 @@ Ce dépôt contient quelques ressources pour configurer son environnement de tra
 - Télécharger l'installeur depuis https://gitforwindows.org/
 - Exécuter cet installeur sur son poste
  
-## Ouvrir Git Bash dans un dossier
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Ouvrir Git Bash dans un dossier
 Un menu contextuel sera à présent disponible dans l'explorateur Windows :
 - Git Bash Here
 - Git GUI Here

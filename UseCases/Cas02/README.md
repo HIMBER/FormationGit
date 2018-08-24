@@ -33,8 +33,8 @@ $ git checkout 7200.0/ft/FT_0005
 $ git add [fichiers]
 $ git commit -m "FT_0005_description du commit"
 $ git rebase -i origin/7200.0/dev
-# pick / squash / drop ...
-$ git rebase --continue
+# pick / squash / delete commits + résoudre conflits
+$ git rebase --continue (ou --abort)
 $ git push
 ```
 

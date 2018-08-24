@@ -85,7 +85,7 @@ Coller cette configuration
 
 ### Utiliser WinMerge pour résoudre un conflit de fusion
 
-Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git mergetool
@@ -93,7 +93,7 @@ $ git mergetool
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Compte.png) Configurer son compte
 
-Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git config --global user.name "Prénom NOM"
@@ -102,7 +102,7 @@ $ git config --global user.email "prénom.nom@masociété.com"
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Https.png) Désactiver les erreurs de certificat HTTPs
 
-Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git config --global http.sslVerify false
@@ -110,7 +110,7 @@ $ git config --global http.sslVerify false
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Alias.png) Créer quelques alias utiles
 
-Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git config --global alias.lg log --graph --oneline --decorate
@@ -120,7 +120,7 @@ $ git config --global alias.st status
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Alias.png) Utiliser ces alias
 
-Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git lg
@@ -132,11 +132,11 @@ $ git st
 
 Par exemple, pour fusionner la `branche de développement` avec une `branche de fonctionnalité`
 
-### Sous Windows :
+#### Sous Windows :
 
 Sur son poste local, créer un sous-dossier pour héberger les sources
 
-### Sous Git Bash :
+#### Sous Git Bash :
 
 ```sh
 $ git clone <url_projet> 

@@ -4,7 +4,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
-### Si elle n'existe pas déjà, créer la branche de lock du Front Office
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Si elle n'existe pas déjà, créer la branche de lock du Front Office
 - Aller sur le menu Dépôt
 - Cliquer sur Branches
 - Cliquer sur le bouton "Nouvelle Branche"
@@ -17,7 +17,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
-### Demander la fusion de la branche de développement vers la branche de release
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Demander la fusion de la branche de développement vers la branche de release
 - Aller sur le menu "Demande de fusion"
 - Cliquer sur "New merge request"
 - Sélectionner la branche `7200.0/dev` en tant que source
@@ -26,17 +26,17 @@
 - Donner un titre
 - Assigner une personne devant valider la merge request
 
-### Valider la demande de fusion
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Valider la demande de fusion
 Le responsable valide la fusion vers la branche de release lorsque tout est OK
 
-### Créer la branche de livraison
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Créer la branche de livraison
 - Aller sur le menu Dépôt
 - Cliquer sur Branches
 - Cliquer sur le bouton "Nouvelle Branche"
 - Nommer la branche `7200.0/liv/01`
 - Sélectionner la branche de base `7200.0/rel`
 
-### Demander la fusion la branche de lock vers la branche de livraison
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Demander la fusion la branche de lock vers la branche de livraison
 - Aller sur le menu "Demande de fusion"
 - Cliquer sur "New merge request"
 - Sélectionner la branche `7200.0/fo.lock/01` en tant que source
@@ -45,7 +45,7 @@ Le responsable valide la fusion vers la branche de release lorsque tout est OK
 - Donner un titre
 - Assigner une personne devant valider la merge request
 
-### Valider la demande de fusion
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Valider la demande de fusion
 Le responsable valide la fusion vers la branche de livraison lorsque tout est OK
 Il peut ainsi lister les fichiers réellement modifiés et les conflits de fusion s'il y en a
 

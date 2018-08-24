@@ -128,6 +128,14 @@ $ git cm "mon message de description de commit"
 $ git st
 ```
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'utilisation de l'option rebase lors de l'appel à pull
+
+#### Sous Git Bash :
+
+```sh
+git config --global pull.rebase preserve
+```
+
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Faire un rebase pour conserver un historique propre
 
 Par exemple, pour fusionner la `branche de développement` avec une `branche de fonctionnalité`

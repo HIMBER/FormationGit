@@ -5,7 +5,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
-### Si elle n'existe pas déjà, créer la branche de release du Front Office
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Si elle n'existe pas déjà, créer la branche de release du Front Office
 - Aller sur le menu Dépôt
 - Cliquer sur Branches
 - Cliquer sur le bouton "Nouvelle Branche"
@@ -18,7 +18,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
-### Demander la fusion de cette release du Front Office vers la branche de release
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Demander la fusion de cette release du Front Office vers la branche de release
 - Aller sur le menu "Demande de fusion"
 - Cliquer sur "New merge request"
 - Sélectionner la branche `7200.0/fo.rel` en tant que source
@@ -27,7 +27,7 @@
 - Donner un titre
 - Assigner une personne devant valider la merge request
 
-### Demander la fusion de cette release du Front Office vers la branche de développement
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Demander la fusion de cette release du Front Office vers la branche de développement
 - Aller sur le menu "Demande de fusion"
 - Cliquer sur "New merge request"
 - Sélectionner la branche `7200.0/fo.rel` en tant que source

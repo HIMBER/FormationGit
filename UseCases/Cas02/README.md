@@ -5,7 +5,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
-### Créer la branche de fonctionnalité
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Créer la branche de fonctionnalité
 - Aller sur le menu Dépôt
 - Cliquer sur Branches
 - Cliquer sur le bouton "Nouvelle Branche"
@@ -14,7 +14,7 @@
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Sous Git Bash
 
-### Si on a déjà un dépôt local associé au dépôt distant
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Repo.png) Si on a déjà un dépôt local associé au dépôt distant
 Se positionner dans le dossier du dépôt local
 ```sh
 $ git fetch

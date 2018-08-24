@@ -40,8 +40,8 @@ $ git push
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 - Aller sur le menu "Demande de fusion"
 - Cliquer sur "New merge request"
-- Sélectionner la branche 7200.0/ft/FT_0001 en tant que source
-- Sélectionner la branche 7200.0/dev en tant que cible
+- Sélectionner la branche `7200.0/ft/FT_0001` en tant que source
+- Sélectionner la branche `7200.0/dev` en tant que cible
 - Cliquer sur "Comparer branche et continuer"
 - Donner un titre
 - Assigner une personne devant valider la merge request

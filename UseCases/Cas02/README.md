@@ -1,7 +1,10 @@
 # Cas d'utilisation n°2
 
-> Création d'une nouvelle fonctionnalité `FT_0005`, lorsqu'une autre fonctionnalité est développée en parallèle et partagée sur le dépôt distant en premier
-> Il est nécessaire de récupérer les modifications de l'autre fonctionnalité pour valider la fusion
+> Création d'une nouvelle fonctionnalité `FT_0005`, lorsqu'une autre fonctionnalité `FT_0001` est développée en parallèle et partagée sur le dépôt distant en premier.
+>
+> Il est nécessaire de récupérer les modifications faites par la fonctionnalité `FT_0001` sur la branch `DEV` pour pouvoir valider la demande de fusion associée à `FT_0005`.
+
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase2.png)
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 

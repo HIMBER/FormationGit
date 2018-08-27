@@ -1,7 +1,10 @@
 # Cas d'utilisation n°3
 
-> Le Front Office fourni une nouvelle release de l'application
-> Il faut alors la prendre en compte dans les développements en cours
+> Le Front Office fourni une nouvelle release de l'application.
+>
+> Il faut alors la prendre en compte dans les développements en cours.
+
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase3.png)
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
@@ -37,9 +40,9 @@
 - Assigner une personne devant valider la merge request
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
-La fusion vers les branches de release et de développement devra se faire en fast-forward pour être validée, sinon il faudra faire un rebase en local en suivant la menipulation indiquée [ici](https://github.com/HIMBER/FormationGit/tree/master/UseCases/Cas02#-sous-git-bash-1)
+La fusion vers les branches de release et de développement devra se faire en **fast-forward** pour être validée, sinon il faudra faire un **rebase** en local en suivant la manipulation indiquée [ici](https://github.com/HIMBER/FormationGit/tree/master/UseCases/Cas02#-sous-git-bash-1)
 
-**Si un développement de fonctionnalité est en cours, il faudra prévenir les développeurs pour qu'ils récupèrent en local cette nouvelle version et rebasent leurs développements dessus :**
+**Si un développement de fonctionnalité est en cours (ex : `FT_0008`), il faudra prévenir les développeurs pour qu'ils récupèrent en local cette nouvelle version (ex : `DEV`) et rebasent leurs développements dessus :**
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Sous Git Bash
 ```sh
 $ git checkout 7200.0/ft/FT_0008

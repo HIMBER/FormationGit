@@ -2,6 +2,8 @@
 
 > Livraison d'une nouvelle version vers le Front Office avec une demande de lock
 
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase4.png)
+
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
 ### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Si elle n'existe pas déjà, créer la branche de lock du Front Office
@@ -47,6 +49,7 @@ Le responsable valide la fusion vers la branche de release lorsque tout est OK
 
 ### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Valider la demande de fusion
 Le responsable valide la fusion vers la branche de livraison lorsque tout est OK
+
 Il peut ainsi lister les fichiers réellement modifiés et les conflits de fusion s'il y en a
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitBash.png) Sous Git Bash
@@ -57,6 +60,8 @@ $ git merge
 ```
 
 Les fichiers fusionnés sont disponibles dans le dossier de travail et prêts à être envoyés au Front Office
+
+Il se peut que la branche de livraison ne soit plus compilable en l'état
 
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----

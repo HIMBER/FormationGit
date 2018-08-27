@@ -2,6 +2,8 @@
 
 > Création d'une nouvelle fonctionnalité, sans travail en parallèle d'autres personnes
 
+![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase1.png)
+
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 
 ### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Créer la branche de fonctionnalité

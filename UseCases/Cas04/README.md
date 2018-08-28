@@ -28,7 +28,7 @@
 - Donner un titre
 - Assigner une personne devant valider la merge request
 
-### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Valider la demande de fusion
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Validate.png) Valider la demande de fusion
 Le responsable valide la fusion vers la branche de release lorsque tout est OK
 
 ### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/MergeS.png) Créer la branche de livraison
@@ -47,7 +47,7 @@ Le responsable valide la fusion vers la branche de release lorsque tout est OK
 - Donner un titre
 - Assigner une personne devant valider la merge request
 
-### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Fusion.png) Valider la demande de fusion
+### ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Validate.png) Valider la demande de fusion
 Le responsable valide la fusion vers la branche de livraison lorsque tout est OK
 
 Il peut ainsi lister les fichiers réellement modifiés et les conflits de fusion s'il y en a

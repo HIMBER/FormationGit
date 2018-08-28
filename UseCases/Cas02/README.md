@@ -4,7 +4,7 @@
 >
 > Il est nécessaire de récupérer les modifications faites par la fonctionnalité `FT_0001` sur la branch `DEV` pour pouvoir valider la demande de fusion associée à `FT_0005`.
 
-![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase2.png)
+![Use Case 2](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/UseCase2.png)
 
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/GitLab.png) Sous GitLab
 

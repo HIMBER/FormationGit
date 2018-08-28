@@ -160,6 +160,21 @@ $ git push
 - La **branche source** est celle dont les commits vont être rejoués (ex : `branche de fonctionnalité`)
 - La **branche cible** est celle dont le dernier commit va servir de nouveau parent à la branche source (ex : `branche de développement`)
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Back.png) Revenir en arrière sur une opération de fusion
+
+Ceci permet d'annuler la dernière opération de type
+- rebase
+- merge
+- pull avec rebase ou merge
+
+sans avoir à retrouver le SHA1 du commit
+
+#### Sous Git Bash :
+
+```sh
+git reset --merge ORIG_HEAD
+```
+
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----
 

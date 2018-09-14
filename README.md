@@ -175,6 +175,31 @@ sans avoir à retrouver le SHA1 du commit
 git reset --merge ORIG_HEAD
 ```
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'affichage par défaut lors d'un conflit de fusion
+
+#### Sous Git Bash :
+
+```sh
+git config --global merge.conflictstyle merge
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'affichage de l'ancètre commun à deux branches lors d'un conflit de fusion
+
+#### Sous Git Bash :
+
+```sh
+git config --global merge.conflictstyle diff3
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Afficher le commit représentant l'ancètre commun à deux branches 
+
+#### Sous Git Bash :
+
+```sh
+git checkout ma_branche
+git log -1 $(git merge-base --fork-point autre_branche)
+```
+
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----
 

@@ -183,7 +183,7 @@ git reset --merge ORIG_HEAD
 git config --global merge.conflictstyle merge
 ```
 
-## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'affichage de l'ancètre commun à deux branches lors d'un conflit de fusion
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'affichage de l'ancêtre commun à deux branches lors d'un conflit de fusion
 
 #### Sous Git Bash :
 

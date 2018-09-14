@@ -191,7 +191,7 @@ git config --global merge.conflictstyle merge
 git config --global merge.conflictstyle diff3
 ```
 
-## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Afficher le commit représentant l'ancètre commun à deux branches 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Afficher le commit représentant l'ancêtre commun à deux branches 
 
 #### Sous Git Bash :
 

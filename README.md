@@ -200,6 +200,27 @@ git checkout ma_branche
 git log -1 $(git merge-base --fork-point autre_branche)
 ```
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Utiliser l'autosquash et le fixup
+
+Ceci permet d'amender simplement un commit de l'historique local avec un nouveau commit via la commande de `rebase` interactif
+
+#### Sous Git Bash :
+
+```sh
+git commit -m "descriptif" --fixup=SHA1duCommitAvecQuiFusionner
+git rebase -i origin/BRANCHE_COURANTE --autosquash
+```
+
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'autosquash par défaut
+
+Cette option sera utilisée uniquement lors d'un rebase interactif et prendra en compte les commits typés `fixup`. Il n'y aura plus besoin de saisir le paramètre `--autosquash` dans la commande de `rebase` interactif
+
+#### Sous Git Bash :
+
+```sh
+git config --global rebase.autosquash true
+```
+
 ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Licence.png) License
 ----
 

@@ -161,7 +161,8 @@ $ git rebase -i origin/<target_branch>
 # pick / squash / delete commits + résoudre conflits
 $ git rebase --continue (ou --abort)
 $ git checkout -b <target_branch> origin/<target_branch> 
-$ git merge <source branch> # c’est un fast forward 
+$ git merge <source branch> --squash # c’est un fast forward 
+$ git commit -m "descriptif du commit de synthèse"
 $ git push
 ```
 

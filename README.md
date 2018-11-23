@@ -184,6 +184,14 @@ sans avoir à retrouver le SHA1 du commit
 git reset --merge ORIG_HEAD
 ```
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Back.png) Annuler une résolution de conflit de fichier
+
+#### Sous Git Bash :
+
+```sh
+git checkout -m FILE
+```
+
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Configurer l'affichage par défaut lors d'un conflit de fusion
 
 #### Sous Git Bash :

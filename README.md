@@ -114,13 +114,13 @@ $ git config --global http.sslVerify false
 
 ```sh
 # Log des commits locaux et distants au format résumé et graphique
-$ git config --global alias.lg log --graph --oneline --decorate
+$ git config --global alias.lg "log --graph --oneline --decorate"
 
 # Log des commits locaux uniquement au format résumé et graphique
-$ git config --global alias.llg log --oneline --graph --branches --not --remotes
+$ git config --global alias.llg "log --oneline --graph --branches --not --remotes"
 
 # Commit avec message
-$ git config --global alias.cm commit -m
+$ git config --global alias.cm "commit -m"
 
 # Affichage du statut
 $ git config --global alias.st status

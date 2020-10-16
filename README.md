@@ -225,6 +225,18 @@ git log -1 $(git merge-base --fork-point autre_branche)
 git whatchanged
 ```
 
+## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Back.png) Changer l'auteur de tous les commits sans modifier la date
+
+#### Sous Git Bash :
+
+```sh
+git filter-branch -f --env-filter "
+    GIT_AUTHOR_NAME='Newname'
+    GIT_AUTHOR_EMAIL='new@email'
+    GIT_COMMITTER_NAME='Newname'
+    GIT_COMMITTER_EMAIL='new@email'
+  " HEAD
+```
 ## ![](https://github.com/HIMBER/FormationGit/blob/master/Private/Images/Merge.png) Utiliser l'autosquash et le fixup
 
 Ceci permet d'amender simplement un commit de l'historique local avec un nouveau commit via la commande de `rebase` interactif. Le message de commit n'est pas obligatoire. Celui du commit amendé sera repris par défaut, préfixé par "fixup!"
